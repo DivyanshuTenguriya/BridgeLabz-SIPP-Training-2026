@@ -3,7 +3,7 @@ class InsufficientFundsException extends Exception {
         super(message);
     }
 }
-import java.util.*;
+
 public class HospitalBillingSystem {
 
     static void processPayment(double billAmount, double availableFunds)
